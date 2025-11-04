@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>1133525-Exerxise11</title>
+</head>
+<body>
+<canvas id="myCanvas" width="400" height="300"></canvas>
+<script>
+var a=document.getElementById("myCanvas");
+var b=a.getContext("2d");
+b.fillStyle ="blue";
+b.fillRect(50,50,200,200);
+b.lineWidth =5;
+b.strokeStyle = "black";
+b.strokeRect(50,50,200,200);
+b.beginPath();
+b.arc(250,150,80,0,2*Math.PI);
+b.fillStyle ="yellow";
+b.fill();
+b.lineWidth =5;
+b.strokeStyle ="red";
+b.stroke();
+</script>
+</body>
+</html>
